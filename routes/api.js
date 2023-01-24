@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')  
 }
  
-var creator = "Rull"
+var creator = "Sanzy"
 var neoxr = "yntkts"
 var zeks = "administrator"
 var zeks2 = "apivinz"
@@ -7438,7 +7438,7 @@ router.get('/cekapikey', async(req, res, next) => {
       status: 'active',
       creator: `${creator}`,
       apikey: `${apikey}`,
-      message: 'APIKEY ACTIVE LIMIT 999'    
+      message: 'APIKEY ACTIVE LIMIT 9999'    
     })
   } else {
     res.json(loghandler.invalidKey)
